@@ -1,4 +1,5 @@
 import { images } from "./constants";
+import { FaFacebook, FaTwitter, FaWhatsapp} from 'react-icons/fa';
   
   export const workData = [
     {
@@ -29,5 +30,26 @@ import { images } from "./constants";
       category: "health",
       link: "#"
     },
+  ]
+
+  export const socials = [
+    {
+      name: "Facebook",
+      icon: images.facebookLogo,
+      alt: "Follow us on Facebook",
+      link: "https://facebook.com"
+    },
+    {
+      name: "Twitter",
+      icon: images.twitterLogo,
+      alt: "Follow us on Twitter",
+      link: "https://twitter.com",
+    },
+    {
+      name: "Whatsapp",
+      icon: images.whatsappLogo,
+      alt: "Contach us on Whatsapp",
+      link: "https://twitter.com/username",
+    }
   ]
   

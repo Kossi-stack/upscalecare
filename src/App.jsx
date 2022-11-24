@@ -7,6 +7,7 @@ import Sponsorship from './pages/Sponsorship/sponsorship';
 import Contact from './pages/Contact/contact';
 import Header from './components/header';
 import Footer from './components/footer';
+import Work from './pages/Work/work';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
              <Route path='services' element={<Services/>}/>
              <Route path='sponsorship' element={<Sponsorship/>}/>
              <Route path='contact' element={<Contact/>}/>
+             <Route path='work' element={<Work/>}/>
           </Routes>
           <Footer/>
        </Router>

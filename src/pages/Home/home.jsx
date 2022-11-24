@@ -5,9 +5,8 @@ import { images } from '../../constants';
 import { workData } from '../../data';
 
 const Home = () => {
-
   return (
-    <div>home</div>
+   <div>Home</div>
   )
 }
 

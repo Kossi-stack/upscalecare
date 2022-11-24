@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+import { images } from '../../constants';
 
 const About = () => {
   return (
-    <div>About</div>
+      <div>About us</div>
   )
 }
 

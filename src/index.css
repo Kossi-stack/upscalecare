@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,6 +8,10 @@ html {
     @apply scroll-smooth;
   }
   
-  body {
-    background-color: rgba(0,0,0,0);
-  }
+body {
+    margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+.mycolor{
+  background-color: #f8f9fa;
+}
