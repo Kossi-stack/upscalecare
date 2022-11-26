@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html {
-    @apply scroll-smooth;
-  }
-  
-  body {
-    background-color: rgba(0,0,0,0);
-  }
+  @apply scroll-smooth;
+}
+
+body {
+  background-color: rgba(0,0,0,0);
+}
+
+.btn-blue {
+  @apply bg-blue-400 rounded-lg w-fit px-3 py-2 text-white hover:bg-blue-200 hover:text-gray-700;
+}
+
+.quality:not(:last-child) {
+  @apply border-r-[1px] pr-4 border-blue-200
+}
