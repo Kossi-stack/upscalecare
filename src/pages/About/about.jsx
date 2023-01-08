@@ -66,19 +66,19 @@ const About = () => {
            </ul>
           </div>
            <div className="w-[50%] flex flex-col mx-3 justify-start text-start bg-white rounded">
-            <p className='px-5 mt-10 text-justify'>Our care are properly trained in many aspects of care and support. Our team are fantastic.Each and every carer enjoys their job and passionate about the people they care for. The team are selected via an intense screening process to ensure only the best individuals to represent our brand and provide top-notch care on our front line. Our team are supported and managed closely to ensure they always provide the level of care we expect.</p>
+            <p className='px-5  mt-10 text-justify'>Our care are properly trained in many aspects of care and support. Our team are fantastic.Each and every carer enjoys their job and passionate about the people they care for. The team are selected via an intense screening process to ensure only the best individuals to represent our brand and provide top-notch care on our front line. Our team are supported and managed closely to ensure they always provide the level of care we expect.</p>
             <p className='px-5 mt-3 text-justify'>We are committed to achieving our aims and objectives and will ensure this through consistently reviewing our services and encouraging service users and their representatives to offer regular feedback.We are willing to help potential service users with their specific care needs by conducting a full risk assessment to ensure we can meet their needs safely and satisfactory,bearing in mind that we will be working in agreement with other relevant agencies such as local and health authorities. </p>
             <p className='px-5 mt-3 text-justify'>Upscale care specializes in developing and delivering outstanding care services to young and adult people so they can remain at home among their family and friends.We aim to meet and go beyond the outcomes set for every child we care for and are responsive to the progress made by our patients. </p>
            </div>   
        </div>
   </div>
   <div className="flex p-8 gap-4 justify-around">
-        <img className="h-65 mt-12 mb-10 w-469 h-448 rounded-lg object-cover" src={images.healthcare8} alt="" />
+        <img className="h-65 ml-5 mt-12 mb-10 w-469 h-448 rounded-lg object-cover" src={images.healthcare8} alt="" />
         <div className="w-[50%] flex flex-col justify-start mt-14">
-          <p className="font-bold text-2xl text-justify">Our Mission</p>
-          <p className="pt-4 font-bold text-justify">We are building inspirational homecare in local communities.</p>
+          <p className="font-bold px-5 text-2xl text-justify">Our Mission</p>
+          <p className="pt-4 px-5 font-bold text-justify">We are building inspirational homecare in local communities.</p>
           <div className="flex gap-4 pt-4 text-justify">
-            <p>Our mission is to attract, nurture and develop the very best care professionals around; and to ensure they’re heard, valued and recognised for their essential work, so that they’re motivated to provide our customers with the highest quality, life-changing support.<br/>Our people and customers are in reassuringly safe, experienced hands.</p>
+            <p className='px-5 text-justify'>Our mission is to attract, nurture and develop the very best care professionals around; and to ensure they’re heard, valued and recognised for their essential work, so that they’re motivated to provide our customers with the highest quality, life-changing support.<br/>Our people and customers are in reassuringly safe, experienced hands.</p>
           </div>
         </div>
   </div>
