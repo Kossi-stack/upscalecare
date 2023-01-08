@@ -46,7 +46,7 @@ const About = () => {
           Our Aims and Objective
           </p>
            <p className="my-2 leading-7 font-bold">
-              At UpScale care we aim to:
+              At UpScale care we aim to: 
            </p>
            
           <ul className=" flex flex-col list-disc list-inside ml-2 w-200 justify-start">
