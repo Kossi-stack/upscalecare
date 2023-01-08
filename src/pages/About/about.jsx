@@ -72,6 +72,16 @@ const About = () => {
            </div>   
        </div>
   </div>
+  <div className="flex p-8 gap-4 justify-around">
+        <img className="h-65 mt-12 mb-10 w-469 h-448 rounded-lg object-cover" src={images.healthcare8} alt="" />
+        <div className="w-[50%] flex flex-col justify-start mt-14">
+          <p className="font-bold text-2xl text-justify">Our Mission</p>
+          <p className="pt-4 font-bold text-justify">We are building inspirational homecare in local communities.</p>
+          <div className="flex gap-4 pt-4 text-justify">
+            <p>Our mission is to attract, nurture and develop the very best care professionals around; and to ensure they’re heard, valued and recognised for their essential work, so that they’re motivated to provide our customers with the highest quality, life-changing support.<br/>Our people and customers are in reassuringly safe, experienced hands.</p>
+          </div>
+        </div>
+  </div>
     </section>
   )
 }
