@@ -42,33 +42,33 @@ const About = () => {
       
         <div className="flex p-8 gap-4 justify-around rounded-lg bg-blue-100">
         <div className="w-[50%] flex flex-col justify-center bg-white rounded m-0">
-         <p class="font-bold text-2xl leading-10">
+         <p class="font-bold text-2xl pl-5 leading-7 mt-10">
           Our Aims and Objective
           </p>
-           <p className="my-2 leading-7 font-bold">
+           <p className="leading-7 pl-5 pb-1 font-bold">
               At UpScale care we aim to: 
            </p>
            
-          <ul className=" flex flex-col list-disc list-inside ml-2 w-200 justify-start">
-              <li>We empower you to be who you are.</li>
-              <li>We work around you and your life.</li>
-              <li>Our out of hours number is direct to the managing director.</li>
-              <li>We are transparent.</li>
-              <li>We have a team of spiritual professionals - we don't employ carers to simply do the job.</li>
-              <li>The manager will visit you often to ensure you are happy with the care you receive</li>
-              <li>We do things how you want them to be done.</li>
-              <li>If a carer cannot attend for whatever reason, the manager will tend to your visit, You will never go without.</li>
-              <li>You have continuity, the same 3/4 carers will provide your care you wont feel as though your home has been invaded and the staff will get to know just how you like things.</li>
-              <li>We are professional & safe.All of our staff have embroidered uniforms and ID tags that cannot be easily forged.</li>
-              <li>Our staff and reliable & friendly.</li>
-              <li>The personal touch & continuity.You will get to know your carers.We will never send lots of different faces.</li>
-              <li>We genuinely care!</li>     
+          <ul className=" flex flex-col list-disc list-inside pl-5 ml-2 w-11/12 justify-start text-justify">
+              <li className = 'pl-px text-justify w-full h-full'>We empower you to be who you are.</li>
+              <li className = 'pl-px border-red-500'>We work around you and your life.</li>
+              <li className = 'pl-px'>Our out of hours number is direct to the managing director.</li>
+              <li className = 'pl-px'>We are transparent.</li>
+              <li className = 'pl-px text-justify w-full h-full'>We have a team of spiritual professionals - we don't employ carers to simply do the job.</li>
+              <li className = 'pl-px'>The manager will visit you often to ensure you are happy with the care you receive</li>
+              <li className = 'pl-px'>We do things how you want them to be done.</li>
+              <li className = 'pl-px'>If a carer cannot attend for whatever reason, the manager will tend to your visit, You will never go without.</li>
+              <li className = 'pl-px'>You have continuity, the same 3/4 careers will provide your care you wont feel as though your home has been invaded and the staff will get to know just how you like things.</li>
+              <li className = 'pl-px'>We are professional & safe.All of our staff have embroidered uniforms and ID tags that cannot be easily forged.</li>
+              <li className = 'pl-px'>Our staff and reliable & friendly.</li>
+              <li className = 'pl-px text-justify w-full h-full inline'>The personal touch & continuity.You will get to know your carers.We will never send lots of different faces.</li>
+              <li className = 'pl-px'>We genuinely care!</li>     
            </ul>
           </div>
            <div className="w-[50%] flex flex-col mx-3 justify-start text-start bg-white rounded">
-            <p>Our care are properly trained in many aspects of care and support. Our team are fantastic.Each and every carer enjoys their job and passionate about the people they care for. The team are selected via an intense screening process to ensure only the best individuals to represent our brand and provide top-notch care on our front line. Our team are supported and managed closely to ensure they always provide the level of care we expect.</p>
-            <p>We are committed to achieving our aims and objectives and will ensure this through consistently reviewing our services and encouraging service users and their representatives to offer regular feedback.We are willing to help potential service users with their specific care needs by conducting a full risk assessment to ensure we can meet their needs safely and satisfactory,bearing in mind that we will be working in agreement with other relevant agencies such as local and health authorities. </p>
-            <p>Upscale care specializes in developing and delivering outstanding care services to young and adult people so they can remain at home among their family and friends.We aim to meet and go beyond the outcomes set for every child we care for and are responsive to the progress made by our patients. </p>
+            <p className='px-5 mt-10 text-justify'>Our care are properly trained in many aspects of care and support. Our team are fantastic.Each and every carer enjoys their job and passionate about the people they care for. The team are selected via an intense screening process to ensure only the best individuals to represent our brand and provide top-notch care on our front line. Our team are supported and managed closely to ensure they always provide the level of care we expect.</p>
+            <p className='px-5 mt-3 text-justify'>We are committed to achieving our aims and objectives and will ensure this through consistently reviewing our services and encouraging service users and their representatives to offer regular feedback.We are willing to help potential service users with their specific care needs by conducting a full risk assessment to ensure we can meet their needs safely and satisfactory,bearing in mind that we will be working in agreement with other relevant agencies such as local and health authorities. </p>
+            <p className='px-5 mt-3 text-justify'>Upscale care specializes in developing and delivering outstanding care services to young and adult people so they can remain at home among their family and friends.We aim to meet and go beyond the outcomes set for every child we care for and are responsive to the progress made by our patients. </p>
            </div>   
        </div>
   </div>
