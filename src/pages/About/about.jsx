@@ -73,7 +73,7 @@ const About = () => {
        </div>
   </div>
   <div className="flex p-8 gap-4 justify-around">
-        <img className="h-65 ml-5 mt-12 mb-10 w-469 h-448 rounded-lg object-cover" src={images.healthcare8} alt="" />
+        <img className="h-68 w-[40%] ml-5 mt-12 mb-10 object-cover" src={images.healthcare8} alt="" />
         <div className="w-[50%] flex flex-col justify-start mt-14">
           <p className="font-bold px-5 text-2xl text-justify">Our Mission</p>
           <p className="pt-4 px-5 font-bold text-justify">We are building inspirational homecare in local communities.</p>
