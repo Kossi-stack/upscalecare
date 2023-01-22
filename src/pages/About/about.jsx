@@ -49,12 +49,12 @@ const About = () => {
               At UpScale care we aim to: 
            </p>
            
-          <ul className=" flex flex-col list-disc list-inside pl-5 ml-2 w-11/12 justify-start text-justify">
+          <ul className=" flex flex-col list-disc list-outside pl-5 ml-2 w-11/12 justify-start text-justify">
               <li className = 'pl-px text-justify w-full h-full'>We empower you to be who you are.</li>
               <li className = 'pl-px border-red-500'>We work around you and your life.</li>
               <li className = 'pl-px'>Our out of hours number is direct to the managing director.</li>
               <li className = 'pl-px'>We are transparent.</li>
-              <li className = 'pl-px text-justify w-full h-full'>We have a team of spiritual professionals - we don't employ carers to simply do the job.</li>
+              <li className = 'pl-px text-justify w-full h-full'>We have a team of spiritual professionals - we don't employ       carers to simply do the job.</li>
               <li className = 'pl-px'>The manager will visit you often to ensure you are happy with the care you receive</li>
               <li className = 'pl-px'>We do things how you want them to be done.</li>
               <li className = 'pl-px'>If a carer cannot attend for whatever reason, the manager will tend to your visit, You will never go without.</li>
