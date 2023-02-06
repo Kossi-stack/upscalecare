@@ -4,6 +4,13 @@ import healthcare2 from '../assets/healcare/healthcare-image2.jpg';
 import healthcare3 from '../assets/healcare/healthcare-image3.jpg';
 import healthcare4 from '../assets/healcare/healthcare-image4.jpg';
 import healthcare5 from '../assets/healcare/healthcare-image5.jpg';
+import healthcare6 from '../assets/healcare/healthcare-image6.jpg';
+import healthcare7 from '../assets/healcare/healthcare-image7.jpg';
+import healthcare8 from '../assets/healcare/healthcare-image8.jpg';
+import healthcare9 from '../assets/healcare/healthcare-image9.jpg';
+import healthcare10 from '../assets/healcare/healthcare-image10.jpg';
+import healthcare12 from '../assets/healcare/healthcare-image12.jpg';
+
 
 export default {
     healthcare,
@@ -12,4 +19,10 @@ export default {
     healthcare3,
     healthcare4,
     healthcare5,
+    healthcare6,
+    healthcare7,
+    healthcare8,
+    healthcare9,
+    healthcare10,
+    healthcare12,
 };
