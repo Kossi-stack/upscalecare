@@ -1,9 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 import { images, icons } from '../../constants';
 import { services, qualities } from '../../constants/data';
-import { workData } from '../../data';
 
 const Home = () => {
 
