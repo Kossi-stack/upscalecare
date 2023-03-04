@@ -83,7 +83,7 @@ const Home = () => {
       <div className="flex flex-col items-center mt-8 w-full">
         <p className="text-2xl font-bold text-blue-500">Working For Upscale Care</p>
         <p className="pt-4 text-center text-lg">
-          Here at UpScale Care, we recruit professional nursing and support staff and supply them to an extensive range of clients within the healthcare industry
+          Here at UpScale Care, we recruit professional nursing and support staff <br/> and supply them to an extensive range of clients within the healthcare industry
         </p>
         <div className="h-56 w-[800px] rounded-lg flex flex-col bg-black/50">
           <img className="w-[800px] h-56 rounded-lg absolute -z-10 object-cover" src={images.healthcare} alt="" />

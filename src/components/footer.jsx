@@ -4,7 +4,7 @@ import { images, icons } from '../constants';
 const Footer = () => {
   return (
 
-    <div className="flex justify-around p-8 h-96 bg-[#003348] text-white">
+    <div className="flex justify-around mt-12 p-8 h-96 bg-[#003348] text-white">
       <div className="w-48">
         <p className="font-bold mb-2 text-xl">UpScaleCare</p>
         <p>UpScalecare administrative support entry and all health care service.</p>
@@ -31,9 +31,9 @@ const Footer = () => {
       <div>
         <p className="font-bold mb-2 text-xl">Quick Links</p>
         <ul>
-          <li>About Us</li>
-          <li>Contact Us</li>
-          <li>Work with Us</li>
+          <li><a href="about">About Us</a></li>
+          <li><a href="contact">Contact Us</a></li>
+          <li><a href="services">Work with Us</a></li>
           <li>Privacy Policy</li>
           <li>Terms & Condition</li>
           <li>Submit a Complain</li>
@@ -43,9 +43,9 @@ const Footer = () => {
       <div>
         <p className="font-bold mb-2 text-xl">Follow Us</p>
         <div className="flex gap-2 mt-2">
-          <img src={icons.twitter} alt="" />
-          <img src={icons.linkedin} alt="" />
-          <img src={icons.facebook} alt="" />
+          <a href="#"><img src={icons.twitter} alt="twitter icon" /></a>
+          <a href="#"><img src={icons.linkedin} alt="linkedIn icon" /></a>
+          <a href="#"><img src={icons.facebook} alt="facebook icon" /></a>
         </div>
         <div className="mt-4">
           <p>Subscribe our Newsletter</p>

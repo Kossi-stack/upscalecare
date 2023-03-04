@@ -10,7 +10,7 @@ const About = () => {
       <div className="bg-black/60 h-96 flex flex-col items-center text-white justify-center">
         <img className="absolute -z-10 h-96 object-cover w-full rounded" src={images.healthcare6} alt="Healthcare about Image" />
         <h1 className="text-4xl font-bold">About Upscale Care</h1>
-        <p className="my-6">Our mission is to attract,nurture and develop the very best care professionals around; and to ensure they're heard,valued and recognised for their essential work</p>
+        <p className="my-6">Our mission is to attract,nurture and develop the very best care professionals around;<br/> and to ensure they're heard,valued and recognised for their essential work</p>
         <button className="border-2 border-white px-2 py-1 rounded-lg hover:bg-gray-200 hover:text-black">Contact Us</button>
       </div>
 
